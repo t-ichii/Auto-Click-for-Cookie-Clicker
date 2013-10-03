@@ -1,6 +1,6 @@
 {
   "name"			: "Auto Click for Cookieclicker",
-  "version"			: "1.11",
+  "version"			: "1.12",
   "manifest_version": 2,
   "description"		: "Auto Click for Cookieclicker. made by it",
   "browser_action"	: {
