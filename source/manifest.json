@@ -1,0 +1,16 @@
+{
+  "name"			: "Auto Click for Cookieclicker",
+  "version"			: "1.11",
+  "manifest_version": 2,
+  "description"		: "Auto Click for Cookieclicker. made by it",
+  "browser_action"	: {
+    "default_icon"	: "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://orteil.dashnet.org/cookieclicker/","http://cafe-capy.net/cookieclicker/"],
+      "js": ["jquery.min.js","script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
